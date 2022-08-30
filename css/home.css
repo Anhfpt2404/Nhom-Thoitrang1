@@ -69,14 +69,20 @@ footer{
     float: right;
     width: 40%;
     font-size: 13px;
+    padding-left: 20px;
 }
-footer li{
+footer .center li{
     padding-top:15px;
-    margin-left: 15px;
+    margin-left: 30px;
+}
+footer .left li{
+    padding-top:15px;
+    margin: 0 15px 0 15px;
 }
 footer .center p{
-    padding-top: 15px;
+    padding: 15px 0 0 15px;
     font-weight: 700;
+
 }
 input[name=your_email]{
     border: 1px solid #1939bc;
