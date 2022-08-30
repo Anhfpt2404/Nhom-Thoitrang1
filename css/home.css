@@ -56,6 +56,10 @@ footer{
 }
 .left li{
     list-style: none;
+    font-weight: 400;
+}
+.left li a{
+    color: #1939bc;
 }
 .center{
     float: left;
@@ -75,13 +79,13 @@ footer .center p{
     padding-top: 15px;
     font-weight: 700;
 }
-input{
+input[name=your_email]{
     border: 1px solid #1939bc;
     height: 38px;
     width: 380px;
     margin: 30px 0 20px 0;
 }
-button{
+button[type=submit]{
     background-color: #1939bc;
     border: 1px solid #1939bc;
     height: 38px;
