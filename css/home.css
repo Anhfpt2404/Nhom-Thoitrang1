@@ -45,8 +45,19 @@ img{
 i{
     padding-right: 10px;
 }
+.note{
+    font-size: 13px;
+    background-color: #1939bc;
+    text-align: center;
+    color: white;
+    height: 154px;
+    padding: 30px 100px;
+}
+.note h2{
+    margin-bottom: 10px;
+}
 footer{
-    padding: 150px 150px 230px 150px;
+    padding: 60px 150px 230px 150px;
     margin-bottom: 50px;
 }
 .left{
