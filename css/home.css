@@ -16,23 +16,28 @@ a{
 img{
     max-width: 100%;
 }
-.liheader {
+.type li {
     list-style: none;
     font-weight: 700;
     float: left;
     line-height: 70px;
     padding: 0 10px;
 }
+.type li a:hover {
+    color: #000;
+}
 .header {
     line-height: 70px;
     background-color: #ffffff;
     text-align: center;
 }
+
 .logo{
     float: left;
     width: 25%;
     height: 70px;
 }
+
 .type{
     float: left;
     width: 50%;
@@ -41,6 +46,15 @@ img{
 .search{
     float: right;
     width: 25%;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main{
+    height: 2000px;
 }
 i{
     padding-right: 10px;
