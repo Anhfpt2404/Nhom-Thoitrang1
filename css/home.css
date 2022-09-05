@@ -16,15 +16,19 @@ a{
 img{
     max-width: 100%;
 }
-.type li {
+.liheader {
     list-style: none;
     font-weight: 700;
     float: left;
     line-height: 70px;
     padding: 0 10px;
+    color: #1939bc;
 }
-.type li a:hover {
-    color: #000;
+.link{
+    color: #1939bc;
+}
+.link:hover {
+    zoom: 1.5;
 }
 .header {
     line-height: 70px;
@@ -114,6 +118,7 @@ input[name=your_email]{
     height: 38px;
     width: 380px;
     margin: 30px 0 20px 0;
+    padding: 10px;
 }
 button[type=submit]{
     background-color: #1939bc;
@@ -124,5 +129,4 @@ button[type=submit]{
 }
 ::placeholder{
     color: #1939bc;
-    padding-left: 20px;
 }
