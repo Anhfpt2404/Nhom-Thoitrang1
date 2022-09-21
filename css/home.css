@@ -56,10 +56,9 @@ img{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10000;
 }
-.main{
-    height: 2000px;
-}
+
 i{
     padding-right: 10px;
 }
@@ -129,4 +128,9 @@ button[type=submit]{
 }
 ::placeholder{
     color: #1939bc;
+}
+
+.main{
+    height: 2000px;
+    margin-top: 70px;
 }
