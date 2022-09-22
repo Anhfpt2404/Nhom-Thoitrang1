@@ -57,9 +57,9 @@ img{
     left: 0;
     right: 0;
     z-index: 10000;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.15);
 }
 .main{
-    height: 2000px;
     margin: 70px;
 }
 i{
@@ -134,4 +134,32 @@ button[type=submit]{
 }
 .carousel slide{
     width: 300px;
+}
+.text{
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px;
+}
+.name-item{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+.giatien{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.imbsl{
+    height: 300px;
+}
+.box-item{
+    float: left;
+    width: calc(25% - 6px);
+    margin: 3px;
+    padding: 3px;
+    border-radius: 6px;
+    height: 480px;
 }
