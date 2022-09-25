@@ -3,8 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="css/payment.css"/>
 </head>
 <body>
-
+<section class="section main">
+    <div class="cl-left">
+        <h1 class="info">Thông tin giao hàng</h1>
+        <form method="get" action="#">
+            <input class="ip" type="text" name="name" placeholder="Họ và tên" required/>
+            <input class="ip" type="email" name="email" placeholder="Email" required/>
+            <input class="ip" type="tel" name="telephone" placeholder="Số điện thoại" required/>
+            <input class="ip" type="text" name="address" placeholder="Địa chỉ" required/>
+            <input class="ip" type="text" name="note" placeholder="Ghi chú"/>
+            <button type="submit" name="sm">Hoàn tất đơn hàng</button>
+        </form>
+    </div>
+    <div class="cl-rignt">
+        <div class="logo-payment"><img src="images/logoeproject.png"/> </div>
+    </div>
+</section>
 </body>
 </html>

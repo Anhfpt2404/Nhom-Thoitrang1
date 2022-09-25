@@ -1,0 +1,69 @@
+input[name=name]{
+    width: 90%;
+    height: 40px;
+}
+input[name=email]{
+    width: 90%;
+    height: 40px;
+}
+input[name=telephone]{
+    width: 90%;
+    height: 40px;
+}
+input[name=address]{
+    width: 90%;
+    height: 40px;
+}
+input[name=note]{
+    width: 90%;
+    height: 200px;
+}
+.ip{
+    margin-top: 10px;
+    border: 1px solid #1939bc;
+    padding-left: 20px;
+}
+::placeholder{
+    color: #1939bc;
+
+}
+form{
+    text-align: center;
+}
+button[name=sm]{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #1939bc;
+    color: white;
+    border: 1px solid #1939bc;
+    border-radius: 2px;
+}
+input[name=num]{
+    width: 80px;
+}
+.cl-left{
+    width: 50%;
+    float: left;
+}
+.cl-right{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+.info{
+    font-family: "Brush Script MT", sans-serif;
+    color: #1939bc;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+.main2{
+    background-color: white;
+    border: 4px solid #1939bc;
+    box-shadow: 5px 5px 5px rgba(25, 57, 188, 0.21);
+}
+.logo-payment{
+    padding-top: 200px;
+    height: 700px;
+}
