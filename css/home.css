@@ -141,6 +141,9 @@ button[name=sub-mail]{
     text-align: center;
     margin: 40px;
 }
+.nv{
+    height: 800px;
+}
 .name-item{
     font-size: 14px;
     font-weight: 600;

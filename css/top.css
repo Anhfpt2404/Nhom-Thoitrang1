@@ -1,0 +1,26 @@
+.menu-top{
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.cl1{
+    width: 25%;
+    float: left;
+    padding-top: 40px;
+}
+.cl2{
+    width: 75%;
+    float: left;
+}
+.box-item{
+    width: calc(33% - 6px);
+}
+.main{
+    height: 1400px;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+}
