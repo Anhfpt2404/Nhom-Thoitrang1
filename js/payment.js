@@ -16,7 +16,7 @@ var dem = 0;
 var sum = 0;
 function addcart(productImg,productName,productPrice){
     var addbuy = document.createElement("tr")
-    addbuy.innerHTML = `<tr><td class="td-buy"><img style="width: 50px" src="${productImg}"/></p></td><td class="td-buy"><span>${productName}</span></td><td class="td-buy"><span>${productPrice}</span></td><td class="td-buy"><input type="radio" name="size${i}" value="s" required/><span style="font-size: 17px">S <span><input type="radio" name="size${i}" value="m" required/><span style="font-size: 17px">M <span><input type="radio" name="size${i}" value="l" required/><span style="font-size: 17px">L <span></td></tr>`
+    addbuy.innerHTML = `<tr class="tr"><td class="td-buy"><img style="width: 50px" src="${productImg}"/></p></td><td class="td-buy"><span>${productName}</span></td><td class="td-buy"><span>${productPrice}</span></td><td class="td-buy"><input type="radio" name="size${i}" value="s" required/><span style="font-size: 17px">S <span><input type="radio" name="size${i}" value="m" required/><span style="font-size: 17px">M <span><input type="radio" name="size${i}" value="l" required/><span style="font-size: 17px">L <span></td></tr>`
     i++;
     var cart = document.querySelector("tbody")
     cart.append(addbuy);
@@ -48,4 +48,16 @@ var x = `<section class="section main2">
 </section>`;
 function warning() {
     document.getElementById("warning").innerHTML = x;
+}
+
+function deleteb(){
+    var deletebuy = document.querySelector("#cha")
+    deletebuy.innerText = ` `;
+    dem=0;
+    var sl = document.getElementById("sldh")
+    sl.innerText = dem;
+    sum=0;
+    var sp = document.getElementById("sumprice");
+    sp.innerText = new Intl.NumberFormat('it-IT').format(sum);
+    document.getElementById("warning").innerText = `Vui lòng bấm xác nhận để đặt hàng!`
 }
