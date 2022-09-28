@@ -188,7 +188,7 @@ td{
     text-align: center;
 }
 .imbsl:hover{
-    zoom: 110%;
+    transform: scale(1.05);
 }
 button[name=sub]{
     background-color: #1939bc;
