@@ -17,7 +17,7 @@
     width: calc(33% - 6px);
 }
 .main{
-    height: 8400px;
+    height: 6000px;
 }
 .sticky{
     position: -webkit-sticky;
@@ -25,5 +25,5 @@
     top: 30px;
 }
 .nv{
-    height: 1300px;
+    height: 900px;
 }
