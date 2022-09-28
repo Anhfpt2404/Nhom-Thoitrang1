@@ -17,10 +17,13 @@
     width: calc(33% - 6px);
 }
 .main{
-    height: 1400px;
+    height: 8400px;
 }
 .sticky{
     position: -webkit-sticky;
     position: sticky;
     top: 30px;
+}
+.nv{
+    height: 1300px;
 }
