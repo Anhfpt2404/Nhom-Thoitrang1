@@ -151,10 +151,11 @@ button[name=sub-mail]{
     margin-top: 15px;
 }
 .giatien{
-    font-size: 14px;
     text-align: center;
+    font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: cursive;
 }
 .imbsl{
     height: 300px;
@@ -166,16 +167,15 @@ button[name=sub-mail]{
     margin: 3px;
     padding: 3px;
     border-radius: 6px;
-    height: 430px;
+    height: 480px;
 }
 .bt{
-    color: white;
-    background-color: #1939bc;
+    color: #000000;
     width: calc(40% - 2px);
-    border: 0;
+    background-color: rgba(252, 213, 100, 0.69);
+    border: 0 solid #1939bc;
     font-size: 12px;
     padding: 5px;
-    box-shadow: 2px -2px 2px rgba(0, 0, 0, 0.24);
 }
 .div-bt{
     text-align: center;
